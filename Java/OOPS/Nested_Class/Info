@@ -1,0 +1,26 @@
+# Nested Classes in Java
+   In Java, a nested class is a class defined inside another class.
+   It helps in logically grouping classes, improving encapsulation, and making code more readable.
+   If we define or declare one class inside another class then such a form is called as “class
+    within class or Nested class”
+     Using this facility complex data type can be created.
+     Nested class is used to access elements of class which is part of another class.
+
+
+# Types of Nested Classes
+Type	                   Description	                     Can Access Outer Class Members?	               Can Be Static?
+Static Nested Class	       Declared with static modifier.	    ❌ (Only static members)                        	✅
+Non-Static (Inner Class)   Regular inner class (no static).	    ✅ (All members)	                                ❌
+Local Inner Class	       Defined inside a method/block.	    ✅ (Only final or effectively final local vars)	    ❌
+Anonymous Inner Class	   Unnamed class                     	✅ (Same as local inner class)	                    ❌
+                           (used for interfaces/abstract classes).
+
+
+# Object Creation Syntax
+
+1) Create object of outer class as:
+       outerClass obj1 = new outerClass( );
+2) Create object of inner class as:
+       outerClass.innerClass obj2 = obj1.new innerClass( );
+3) Create object of supper inner class as:
+       outerClass.innerClass.superinnerClas obj3 = obj2.new superinnerClass( );

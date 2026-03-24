@@ -1,0 +1,16 @@
+# Parameter passing technique in Java:
+   Default Technique – Java uses "Pass by Value" (Call by Value) for all parameters.
+   No Pass by Address – Java doesn’t support pointers, so "Pass by Address" is invalid.
+   Always Pass by Value – Whether passing a variable or reference, a copy of the value is sent.
+
+1) Passing Object as "Pass by Value" in Java
+   In Java, when you pass an object to a method, you are actually passing a copy of the reference (memory address) to that object.
+    The original reference and the copied reference both point to the same object in memory.
+   Changes made inside the method affect the original object because both references point to the same memory location.
+   Reassigning the reference inside the method does not affect the original reference outside.
+
+
+2) Passing Array to Method in Java
+    Arrays in Java are objects, so when you pass an array to a method, you pass a copy of the reference (similar to objects).
+    Modifying array elements inside the method affects the original array.
+    Reassigning the array reference inside the method does not affect the original reference.
