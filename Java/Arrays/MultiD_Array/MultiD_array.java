@@ -25,7 +25,7 @@ public class MultiD_array {
         System.out.println(cube[0][1][0]);  // 3 (depth=0, row=1, col=0)
         cube[1][0][1] = 10;  // Modify element
 
-        // Print all elements
+        // Print all elements of an Array
         System.out.println("3D array elements");
         for (int[][] i : cube ) {
             for (int [] j : i) {
