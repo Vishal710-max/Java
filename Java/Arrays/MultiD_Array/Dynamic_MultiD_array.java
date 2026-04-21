@@ -5,7 +5,7 @@ public class Dynamic_MultiD_array {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter depth, no. of rows and columns: ");
+        System.out.print("Enter depth , no. of rows and columns: ");
         int depth = input.nextInt(), row = input.nextInt(), col = input.nextInt();
 
         int[][][] cube = new int[depth][row][col];
@@ -29,11 +29,13 @@ public class Dynamic_MultiD_array {
 }
 
 // Output =>
+
 // Enter depth, no. of rows and columns: 2 2 2
 // Enter 8 Elements: 1 2 3 4 5 6 7 8
 // MultiD array elements:
+
 // 1  2
 // 3  4
-//
+
 // 5  6
 // 7  8
