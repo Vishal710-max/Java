@@ -9,6 +9,7 @@ A constructor in Java is a special method that:
      - Has no return type (not even void)
 
 2. Key Characteristics
+
 ✔ Name must match class name
 ✔ No return type specified
 ✔ Can be overloaded (multiple constructors)
@@ -16,6 +17,7 @@ A constructor in Java is a special method that:
 ✔ If not defined, Java provides a default constructor
 
 3. Types of Constructors
+
 (1) Default Constructor
 - Provided by Java if no constructor is defined
 - Takes no parameters
@@ -29,6 +31,7 @@ class className {
       // Body of Constructor (Default)
     }
 }
+
 */
 public class Constructor_Default {
     Constructor_Default() {
