@@ -16,11 +16,11 @@ class class_name {
 */
 public class Constructor_Parameterized {
     Constructor_Parameterized(String name) {
-        System.out.println(name + " Constructor..");
+        System.out.println(name + " Constructor");
     }
     public static void main(String[] args) {
         Constructor_Parameterized obj = new Constructor_Parameterized("Parameterized");  // parameterized constructor called
         // Output =>
-        // Parameterized Constructor..
+        // Parameterized Constructor
     }
 }
