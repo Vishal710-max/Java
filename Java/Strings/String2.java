@@ -2,7 +2,7 @@ package Strings;
 
 public class String2 {
     public static void main(String[] args) {
-        String str1 = "abc";
+        String str1 = "pqr";
         String str2 = "abc";
         String str3 = new String("abc");
 
